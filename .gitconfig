@@ -1,0 +1,23 @@
+[user]
+	name = __name__
+	email = __email__
+[github]
+	user = __user__
+	token = __token__
+[color]
+   branch = auto
+   status = auto
+   diff = auto
+[alias]
+   ci = commit
+   co = checkout
+   b = branch -a
+   st = status
+   sth = stash
+   stl = stash list --color
+   log = log --stat
+   slog = shortlog
+   df = diff -u
+   web = instaweb --httpd webrick
+[core]
+   excludesfile = __pathtoignorefile__
