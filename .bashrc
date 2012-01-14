@@ -23,4 +23,4 @@ PS1='\[\033[1;33m\][\u@\h] \w\[\033[0m\]$(__git_ps1 " \[\033[1;32m\](%s)\[\033[0
 alias ll='ls -lh --color=auto'
 alias grepa="grep -iRnH"
 alias serve="thin -R ~/projects/dotfiles/scripts/static.ru start"
-
+alias rbexec="rvm 1.8.7,1.9.2 exec bundle exec"
