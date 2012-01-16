@@ -1,0 +1,15 @@
+#-*-conf-*-
+
+startup_message off
+autodetach      on
+vbell           on
+
+setenv LC_CTYPE pt_BR.UTF-8
+setenv LC_ALL pt_BR.UTF-8
+defutf8 on
+
+termcapinfo xterm-256color ti@:te@
+terminfo    xterm-256color ti@:te@:
+term        screen-256color
+
+caption always "%{= Wk}%-w%{= Bw}%n %t%{-}%+w %-="
