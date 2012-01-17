@@ -6,6 +6,7 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
+export PATH=$PATH:/home/ec2-user/projects/dotfiles/scripts
 
 ##### BASH OPTIONS
 export GREP_OPTIONS="--color=auto"
